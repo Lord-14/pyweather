@@ -10,8 +10,8 @@ class WeatherApp:
     name.place(x=0,y=0, relwidth=1,height=40)
     city=Label(self.root,text="City:", font=("agency fb", 16), bg="white")
     city.place(x=-100,y=60,relwidth=1, height=30)
-    cityEntry=Entry(self.root,textvariable=self.var_search, font=("agency fb", 15), bg="white")
-    cityEntry.place(x=230, y=60, relwidth=0.5,height = 30)
+    cityEntry=Entry(self.root,textvariable=self.var_search, font=("agency fb", 15), bg="white", fg="green")
+    cityEntry.place(x=225, y=60, relwidth=0.5,height = 30)
 
     
   
